@@ -1,0 +1,37 @@
+body{
+    background-color:#14b8a6 ;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+}
+.title{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;  
+}
+.navbar{
+    display: inline;
+    color: beige;
+}
+
+.navbar a{
+    display: inline;
+    color: #99f6e4;
+    text-decoration: none;
+}
+
+#picture{
+    width: 350px;
+    height: 400px;
+    border-radius: 50%;
+}
+#list{
+    list-style: none;
+    color: ;#ccfbf1
+}
+.h4{
+    font-weight: bold;
+}
+
+
+
+  }  

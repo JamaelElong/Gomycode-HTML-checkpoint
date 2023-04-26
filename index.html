@@ -4,35 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>my first html page</title>
 </head>
-<body>
+<body class="title">
     <header>
     <h1>Jamael's Portofolio</h1><br><br>
     <h2>
         <nav>
         <!-- &nbsp;to add space -->
+        <div class="navbar">
             <a href="#">Home</a>&nbsp;
             <a href="#">About</a>&nbsp;
             <a href="#">Work</a>&nbsp;
             <a href="#">Resume</a>&nbsp;
             <a href="#">Contact</a>
+        </div>
         </nav>
     </h2><br><br><br>
     </header>
     <main>
     <section>
         <h3> ABOUT</h3>
-        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non at, officiis quas repudiandae nisi modi consequatur sit sapiente illo molestias natus suscipit sunt optio aliquid eveniet facere asperiores ipsum est?</P>
-        <img src="my picture.jpg" alt="a picture of myself">
-    </section><br>
+        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam voluptate corrupti vitae natus neque possimus excepturi architecto incidunt obcaecati, quod unde nostrum, dolorem vel repellat. Optio, voluptatem? Error, accusamus distinctio? ipsum, dolor sit amet consectetur adipisicing elit. Tempora, ipsum accusamus, ad sit quia eum nihil aperiam voluptatum atque ut maiores dolor praesentium at laborum veniam iste corporis quis eveniet! ipsum dolor sit, amet consectetur adipisicing elit. Non at, officiis quas repudiandae nisi modi consequatur sit sapiente illo molestias natus suscipit sunt optio aliquid eveniet facere asperiores ipsum est?</P>
+        <img id="picture" src="my picture.jpg" alt="a picture of myself">
+    </section><br><hr>
     <section>
         <h3>WORK</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis sunt odit, consequatur id quod beatae eius asperiores, nostrum voluptate eaque veritatis, illo tempore saepe numquam odio! Animi nobis quod enim.</p>
         <iframe width="589" height="331" src="https://www.youtube.com/embed/cUDvuSKYO_M" title="Childbirth - Normal Delivery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>work done in a delivery room hospital</iframe>
 
-        <h4>complications of ectopic pregnancy</h4>
-        <ul>
+        <h4 class="h4">complications of ectopic pregnancy</h4>
+        <ul id="list" >
             <li>fallopian tube ruptures</li>
             <li>severe bleeding</li>
             <li>infections</li>
@@ -41,12 +44,12 @@
         </ul>
         <p>Ectopic pregnancies are life threatening conditions, especialy if your fallopian tube breaks. This is a medical emergency. Healthcare practitioners must treat ectopic pregnancy quickly.</p>
         
-    </section><br>
+    </section><br><hr>
     <section>
         <!--here is the resume section -->
         <h3>Resume</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea, distinctio illo totam quia incidunt! Vitae tenetur, ut nam esse laudantium praesentium iure corrupti odit quod nesciunt repellendus, maiores sequi?</p>
-        <table border="1">
+        <table border="4">
             <h4>Collecting data of some of my patients</h4>
             <tr>
                 <th>Name</th>&nbsp;
@@ -74,7 +77,7 @@
                 <td>21/01/2024</td>
             </tr>
         </table>
-    </section><br>
+    </section><br><hr>
     <section>
         <h3>Contacts</h3>
         <p>contact information below</p>
@@ -90,7 +93,7 @@
             <button value="submit">Submit</button>
         </form>
 
-    </section>
+    </section><hr>
     </main><br>
     <a href="#">back to top</a>
     <footer> copyright &copy;2023: Designed by Jamael!</footer>
